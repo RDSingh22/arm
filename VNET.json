@@ -51,7 +51,7 @@
         "description": "Subnet 3 Prefix"
       }
     },
-    "subnet2Name": {
+    "subnet3Name": {
       "type": "string",
       "defaultValue": "BE",
       "metadata": {
