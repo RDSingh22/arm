@@ -12,19 +12,19 @@
       "value": "FE"
     },
     "subnet1Prefix": {
-      "value": "10.10.0.0/24"
+      "value": "10.10.1.0/24"
     },
     "subnet2Name": {
       "value": "ME"
     },
     "subnet2Prefix": {
-      "value": "10.10.1.0/24"
+      "value": "10.10.2.0/24"
     },
     "subnet3Name": {
       "value": "BE"
     },
     "subnet3Prefix": {
-      "value": "10.10.2.0/24"
+      "value": "10.10.3.0/24"
   }
 }
 }
