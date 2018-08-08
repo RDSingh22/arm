@@ -1,0 +1,30 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "dcType": {
+      "value": "FirstDC"
+    },
+    "adminUsername": {
+      "value": "Expert"
+    },
+    "adminPassword": {
+      "value": "3Er63nc4$123"
+    },
+    "vmPrefix": {
+      "value": "My-"
+    },
+	"vmSuffix": {
+      "value": "01"
+    },
+    "existingVirtualNetworkName": {
+      "value": "MyTestVnet"
+    },
+    "existingVirtualNetworkResourceGroup": {
+      "value": "GroupStudy"
+    },
+    "subnetName": {
+      "value": "BE"
+    }    
+  }
+}
