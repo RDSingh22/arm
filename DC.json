@@ -89,7 +89,7 @@
         }
       ,
         "accounttype" : "[variables('storageAccountType')]",
-	"diskSizeGB:"32"      
+	"diskSizeGB:"32",     
     }
     },
     {
