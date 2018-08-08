@@ -88,7 +88,8 @@
           "createOption" : "Empty"
         }
       ,
-        "accountType": "[variables('storageAccountType')]",    
+        "accountType": "[variables('storageAccountType')]",
+	      "diskSizeGB": "32"
     }
     },
     {
