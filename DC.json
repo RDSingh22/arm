@@ -88,8 +88,7 @@
           "createOption" : "Empty"
         }
       ,
-        "accounttype" : "[variables('storageAccountType')]",
-	    
+        "accountType" : "[variables('storageAccountType')]",    
     }
     },
     {
