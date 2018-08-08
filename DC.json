@@ -73,13 +73,13 @@
     "vnetID": "[resourceId(variables('vnetRG'), 'Microsoft.Network/virtualNetworks', variables('vnetName'))]",
     "subnetRef": "[concat(variables('vnetID'),'/subnets/', variables('vnetSubnet'))]",
     "apiVersion": "2017-06-01",
-    "apiVersionManagedDisks": "2017-03-30"
+    "apiVersionManagedDisks": "2016-04-30-preview"
   },
   "resources": [
     {
       "type": "Microsoft.Compute/disks",
       "name": "[variables('dataDisk1VhdName')]",
-      "apiVersion": "2017-03-30",
+      "apiVersion": "2016-04-30-preview",
       "location": "[resourceGroup().location]",
       "properties":
       {
@@ -88,8 +88,8 @@
           "createOption" : "Empty"
         }
       ,
-        "sku" : "[variables('storageAccountType')]",
-             
+        "accounttype" : "[variables('storageAccountType')]",
+	"diskSizeGB:"32"      
     }
     },
     {
@@ -112,7 +112,7 @@
       }
     },
     {
-      "apiVersion": "2017-03-30",
+      "apiVersion": "2016-04-30-preview",
       "type": "Microsoft.Compute/virtualMachines",
       "name": "[variables('vmFullName')]",
       "location": "[resourceGroup().location]",
