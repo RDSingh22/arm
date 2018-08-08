@@ -89,7 +89,7 @@
         }
       ,
         "accountType" : "[variables('storageAccountType')]",
-        "diskSizeGB": "512"      
+             
     }
     },
     {
@@ -144,7 +144,7 @@
             {
               "lun": 2,
               "name": "[variables('dataDisk1VhdName')]",
-              "createOption": "FromImage",
+              "createOption": "Attach",
               "managedDisk":
               {
                 "id": "[resourceId('Microsoft.Compute/disks', variables('dataDisk1VhdName'))]"
