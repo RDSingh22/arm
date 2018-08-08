@@ -144,7 +144,7 @@
             {
               "lun": 2,
               "name": "[variables('dataDisk1VhdName')]",
-              "createOption": "Attach",
+              "createOption": "FromImage",
               "managedDisk":
               {
                 "id": "[resourceId('Microsoft.Compute/disks', variables('dataDisk1VhdName'))]"
