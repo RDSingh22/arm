@@ -1,0 +1,37 @@
+{
+
+"$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "newStorageAccountName": {
+            "value": "adconnectstrg"
+        },
+        "publicIPName": {
+            "value": "adcon"
+        },
+        "vmName": {
+            "value": "MyADCON"
+        },
+        "adminUsername": {
+            "value": "Expert"
+        },
+        "adminPassword": {
+            "value": "3Er63nc4$123"
+        },
+        "virtualNetworkName": {
+            "value": "MyTestVNet"
+        },
+        "virtualNetworkResourceGroup": {
+            "value": "GroupStudy"
+        },
+        "subnet1Name": {
+            "value": "FE"
+        },
+        "nicName": {
+            "value": "adcon"
+        },
+        "imageSKU": {
+            "value": "2012-R2-Datacenter"
+        }
+    }
+}
