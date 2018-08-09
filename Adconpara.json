@@ -18,10 +18,10 @@
         "adminPassword": {
             "value": "3Er63nc4$123"
         },
-        "virtualNetworkName": {
+        "existingvirtualNetworkName": {
             "value": "MyTestVNet"
         },
-        "virtualNetworkResourceGroup": {
+        "existingvirtualNetworkResourceGroup": {
             "value": "GroupStudy"
         },
         "subnet1Name": {
